@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="opencv_test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Mingw-build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="G:/Cpp/opencv_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;G:/Cpp/opencv_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;G:/Cpp/opencv_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;G:/Cpp/opencv_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;G:/Cpp/opencv_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="G:/Cpp/opencv_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;G:/Cpp/opencv_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;G:/Cpp/opencv_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;G:/Cpp/opencv_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;G:/Cpp/opencv_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_test">
+				<Option output="G:/Cpp/opencv_test/cmake-build-debug/opencv_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Cpp/opencv_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Mingw-build"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/core/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/flann/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/imgproc/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/intensity_transform/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/ml/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/phase_unwrapping/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/photo/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/plot/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/quality/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/reg/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/surface_matching/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/xphoto/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/dnn/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/dnn_superres/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/features2d/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/fuzzy/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/hfs/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/img_hash/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/imgcodecs/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/line_descriptor/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/saliency/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/text/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/videoio/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/wechat_qrcode/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/barcode/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/calib3d/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/datasets/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/highgui/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/mcc/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/objdetect/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/rapid/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/rgbd/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/shape/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/structured_light/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/ts/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/video/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/videostab/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/xfeatures2d/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/ximgproc/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/xobjdetect/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/aruco/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/bgsegm/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/bioinspired/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/ccalib/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/dnn_objdetect/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/dpm/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/face/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/gapi/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/optflow/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/stitching/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/superres/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/tracking/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/stereo/include"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;G:/Cpp/opencv_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 opencv_test"/>
+					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;G:/Cpp/opencv_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;G:/Cpp/opencv_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;G:/Cpp/opencv_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_test/fast">
+				<Option output="G:/Cpp/opencv_test/cmake-build-debug/opencv_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Cpp/opencv_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Mingw-build"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/core/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/flann/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/imgproc/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/intensity_transform/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/ml/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/phase_unwrapping/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/photo/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/plot/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/quality/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/reg/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/surface_matching/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/xphoto/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/dnn/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/dnn_superres/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/features2d/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/fuzzy/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/hfs/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/img_hash/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/imgcodecs/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/line_descriptor/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/saliency/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/text/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/videoio/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/wechat_qrcode/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/barcode/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/calib3d/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/datasets/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/highgui/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/mcc/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/objdetect/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/rapid/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/rgbd/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/shape/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/structured_light/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/ts/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/video/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/videostab/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/xfeatures2d/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/ximgproc/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/xobjdetect/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/aruco/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/bgsegm/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/bioinspired/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/ccalib/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/dnn_objdetect/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/dpm/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/face/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/gapi/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/optflow/include"/>
+					<Add directory="E:/Opencv/opencv-4.5.3/modules/stitching/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/superres/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/tracking/include"/>
+					<Add directory="E:/Opencv/opencv_contrib-4.5.3/modules/stereo/include"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;G:/Cpp/opencv_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 opencv_test/fast"/>
+					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;G:/Cpp/opencv_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;G:/Cpp/opencv_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;G:/Cpp/opencv_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="G:/Cpp/opencv_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;G:/Cpp/opencv_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;G:/Cpp/opencv_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;G:/Cpp/opencv_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;G:/Cpp/opencv_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="G:/Cpp/opencv_test/main.cpp">
+			<Option target="opencv_test"/>
+		</Unit>
+		<Unit filename="G:/Cpp/opencv_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="G:/Cpp/opencv_test/Mingw-build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\Mingw-build\"/>
+		</Unit>
+		<Unit filename="G:/Cpp/opencv_test/Mingw-build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\Mingw-build\"/>
+		</Unit>
+		<Unit filename="G:/Cpp/opencv_test/Mingw-build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\Mingw-build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
